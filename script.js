@@ -6,7 +6,7 @@ $(function() {
 		 ************************/
 		var FACTOR = 0.5;
 		var $heroImage = $('.hero-image');
-		var $heroheader = $('.hero h1');
+		
 
 		/* Calculate percentComplete, which goes from 0 to 1 */
 		var distanceScrolled = Math.max(0, $(window).scrollTop());
@@ -18,7 +18,7 @@ $(function() {
 		var opacityfactor = (1-percentComplete)*(1-percentComplete);
 		/* Apply the transform */
 		$heroImage.css({'transform': 'translateY(' + translateY + '%)'});
-		$heroheader.css({'opacity': opacityfactor});
+		
 
 		/**********************
 		 * Pinning the navbar *
@@ -43,11 +43,11 @@ $(function() {
 		 * Highlighting buttons*
 		 * *********************/
 		 
-		 var pinpointHome     =  
-		 var pinpointAbout    =
-		 var pinpointSkills   =
-		 var pinpointProjects =
-		 var pinpointContact  =
+		 var pinpointHome     =  0;
+		 var pinpointAbout    =  0;
+		 var pinpointSkills   =  0;
+		 var pinpointProjects =  0;
+		 var pinpointContact  =  0;
 	});
 
 	/*************
