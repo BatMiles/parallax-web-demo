@@ -42,13 +42,29 @@ $(function() {
 		
 		/***********************
 		 * Highlighting buttons*
-		 * 
+		 * *********************/
 		 
-		 var pinpointHome     =  0;
-		 var pinpointAbout    =  0;
-		 var pinpointSkills   =  0;
-		 var pinpointProjects =  0;
-		 var pinpointContact  =  0;*/
+		 var pinpointHome     =  $('.hero').offset().top;
+		 var pinpointAbout    =  $('.vision').offset().top;
+		 var pinpointSkills   =  $('.product').offset().top;
+		 var pinpointProjects =  $('.projects').offset().top;
+		 var pinpointContact  =  $('team').offset().top;
+		 
+		 if(pinpointAbout>=distanceScrolled>=pinpointHome){
+		 	
+		 }
+		 else if(pinpointSkills>=distanceScrolled>=pinpointAbout){
+		 	
+		 }
+		 else if(pinpointProjects>=distanceScrolled>=pinpointSkills){
+		 	
+		 }
+		 else if(pinpointContact>=distanceScrolled>=pinpointProjects){
+		 	
+		 }
+		 else{
+		 	
+		 }
 	});
 
 	/*************
