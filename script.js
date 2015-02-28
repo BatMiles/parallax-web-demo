@@ -16,7 +16,7 @@ $(function() {
 
 		/* Use percentComplete to determine how much we translate */
 		var translateY = (percentComplete * 100 * FACTOR);
-		var opacityfactor = (1-percentComplete)*(1-percentComplete);
+		var opacityfactor = (1-percentComplete)*(1-percentComplete)*(1-percentComplete);
 		/* Apply the transform */
 		$heroImage.css({'transform': 'translateY(' + translateY + '%)'});
 		$heroHeader.css({'opacity':opacityfactor});
