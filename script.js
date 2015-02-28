@@ -6,6 +6,7 @@ $(function() {
 		 ************************/
 		var FACTOR = 0.5;
 		var $heroImage = $('.hero-image');
+		var $heroheader = $('.hero h1');
 
 		/* Calculate percentComplete, which goes from 0 to 1 */
 		var distanceScrolled = Math.max(0, $(window).scrollTop());
@@ -14,10 +15,10 @@ $(function() {
 
 		/* Use percentComplete to determine how much we translate */
 		var translateY = (percentComplete * 100 * FACTOR);
-
+		var opacityfactor = (1-percentComplete)*(1-percentComplete);
 		/* Apply the transform */
 		$heroImage.css({'transform': 'translateY(' + translateY + '%)'});
-		
+		$heroheader.css({'opacity': opacityfactor});
 
 		/**********************
 		 * Pinning the navbar *
