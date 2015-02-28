@@ -17,6 +17,7 @@ $(function() {
 
 		/* Apply the transform */
 		$heroImage.css({'transform': 'translateY(' + translateY + '%)'});
+		$(“.hero h1”).css({“opacity”: ((1-percentComplete)*(1-percentComplete))});
 
 		/**********************
 		 * Pinning the navbar *
