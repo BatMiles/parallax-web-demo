@@ -6,6 +6,7 @@ $(function() {
 		 ************************/
 		var FACTOR = 0.5;
 		var $heroImage = $('.hero-image');
+		var $heroHeader = $('.hero h1');
 		
 
 		/* Calculate percentComplete, which goes from 0 to 1 */
