@@ -41,13 +41,13 @@ $(function() {
 		
 		/***********************
 		 * Highlighting buttons*
-		 * *********************/
+		 * 
 		 
 		 var pinpointHome     =  0;
 		 var pinpointAbout    =  0;
 		 var pinpointSkills   =  0;
 		 var pinpointProjects =  0;
-		 var pinpointContact  =  0;
+		 var pinpointContact  =  0;*/
 	});
 
 	/*************
