@@ -19,7 +19,7 @@ $(function() {
 		var opacityfactor = (1-percentComplete)*(1-percentComplete);
 		/* Apply the transform */
 		$heroImage.css({'transform': 'translateY(' + translateY + '%)'});
-		
+		$heroHeader.css({'opacity':opacityfactor});
 
 		/**********************
 		 * Pinning the navbar *
