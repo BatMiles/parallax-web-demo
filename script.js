@@ -6,7 +6,7 @@ $(function() {
 		 ************************/
 		var FACTOR = 0.5;
 		var $heroImage = $('.hero-image');
-		var $heroheader = $('.hero h1');
+		var $heroheader = $('.hero');
 
 		/* Calculate percentComplete, which goes from 0 to 1 */
 		var distanceScrolled = Math.max(0, $(window).scrollTop());
@@ -38,6 +38,16 @@ $(function() {
 		} else {
 			$navbar.removeClass('pinned')
 		}
+		
+		/***********************
+		 * Highlighting buttons*
+		 * *********************/
+		 
+		 var pinpointHome     =  
+		 var pinpointAbout    =
+		 var pinpointSkills   =
+		 var pinpointProjects =
+		 var pinpointContact  =
 	});
 
 	/*************
