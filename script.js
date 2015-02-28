@@ -6,7 +6,7 @@ $(function() {
 		 ************************/
 		var FACTOR = 0.5;
 		var $heroImage = $('.hero-image');
-		var $heroheader = $('.hero');
+		var $heroheader = $('.hero h1');
 
 		/* Calculate percentComplete, which goes from 0 to 1 */
 		var distanceScrolled = Math.max(0, $(window).scrollTop());
