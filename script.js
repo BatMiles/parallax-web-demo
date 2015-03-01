@@ -52,19 +52,19 @@ $(function() {
 		 
 		 var $oldHighlight = $('.button.action-item');
 		 
-		 if(pinpointAbout>=distanceScrolled>=pinpointHome){
+		 if(pinpointAbout>distanceScrolled>0){
 		 	$('.button[data-no="1"]').addClass('action-item');
 		 	$oldHighlight.removeClass('action-item');
 		 }
-		 else if(pinpointSkills>=distanceScrolled>=pinpointAbout){
+		 else if(pinpointSkills>distanceScrolled>pinpointAbout){
 		 	$('.button[data-no="2"]').addClass('action-item').addClass('action-item');
 		 	$oldHighlight.removeClass('action-item');
 		 }
-		 else if(pinpointProjects>=distanceScrolled>=pinpointSkills){
+		 else if(pinpointProjects>distanceScrolled>pinpointSkills){
 		 	$('.button[data-no="3"]').addClass('action-item').addClass('action-item');
 		 	$oldHighlight.removeClass('action-item');
 		 }
-		 else if(pinpointContact>=distanceScrolled>=pinpointProjects){
+		 else if(pinpointContact>distanceScrolled>pinpointProjects){
 		 	$('.button[data-no="4"]').addClass('action-item').addClass('action-item');
 		 	$oldHighlight.removeClass('action-item');
 		 }
