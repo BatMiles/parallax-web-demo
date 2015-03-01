@@ -50,7 +50,7 @@ $(function() {
 		 var pinpointProjects =  $('.projects').offset().top;
 		 var pinpointContact  =  $('.team').offset().top;
 		 
-		 var $oldHighlight = $('.action-item');
+		 var $oldHighlight = $('.button.action-item');
 		 
 		 if(pinpointAbout>=distanceScrolled>=pinpointHome){
 		 	///$('[data-no='1']').addClass('action-item');
