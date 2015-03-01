@@ -53,23 +53,23 @@ $(function() {
 		 var $oldHighlight = $('.action-item');
 		 
 		 if(pinpointAbout>=distanceScrolled>=pinpointHome){
-		 	$('[data-no='1']').addClass('action-item');
+		 	///$('[data-no='1']').addClass('action-item');
 		 	$oldHighlight.removeClass('action-item');
 		 }
 		 else if(pinpointSkills>=distanceScrolled>=pinpointAbout){
-		 	$('[data-no='2']').addClass('action-item');
+		 	//$('[data-no='2']').addClass('action-item');
 		 	$oldHighlight.removeClass('action-item');
 		 }
 		 else if(pinpointProjects>=distanceScrolled>=pinpointSkills){
-		 	$('[data-no='3']').addClass('action-item');
+		 	//$('[data-no='3']').addClass('action-item');
 		 	$oldHighlight.removeClass('action-item');
 		 }
 		 else if(pinpointContact>=distanceScrolled>=pinpointProjects){
-		 	$('[data-no='4']').addClass('action-item');
+		 	//$('[data-no='4']').addClass('action-item');
 		 	$oldHighlight.removeClass('action-item');
 		 }
 		 else{
-		 	$('[data-no='5']').addClass('action-item');
+		 	//$('[data-no='5']').addClass('action-item');
 		 	$oldHighlight.removeClass('action-item');
 		 }
 	});
