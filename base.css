@@ -89,10 +89,10 @@ nav ul li p {
 nav ul li:hover {
 	cursor: pointer;
 	background-color: #eee; }
-nav ul li.action-item {
+nav ul li.button.action-item {
 	color: white;
 	background-color: #4155E8; }
-nav ul li.action-item:hover {
+nav ul li.button.action-item:hover {
 	color: white;
 	background-color: #3B4CD1; }
 nav ul.right { float:right; }
