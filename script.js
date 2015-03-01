@@ -48,7 +48,7 @@ $(function() {
 		 var pinpointAbout    =  $('.vision').offset().top;
 		 var pinpointSkills   =  $('.product').offset().top;
 		 var pinpointProjects =  $('.projects').offset().top;
-		 var pinpointContact  =  $('team').offset().top;
+		 var pinpointContact  =  $('.team').offset().top;
 		 
 		 if(pinpointAbout>=distanceScrolled>=pinpointHome){
 		 	
